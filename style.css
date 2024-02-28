@@ -1,0 +1,163 @@
+header{
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+ header,div{
+    background-color:  rgb(11, 2, 13);
+    display: flex;
+    flex: 1;
+     box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    background-color:  rgb(11, 2, 13);
+}
+.anker{
+    font-size: 14px;
+    color: rgb(213, 206, 214);
+    font-weight: bold;
+    margin-top: 16px;
+}
+.logo{
+    color: crimson;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    border-radius: 10px;
+}
+a,.anker:hover{
+    color: rgb(139, 124, 124);
+    font-size: 15px;
+    
+
+} 
+section div{
+    
+    margin: 8px;
+    padding: 8px;
+    float: left;
+    width: 23.4%;
+    box-sizing: border-box;
+    height: 220px;
+    border-radius: 5px;
+    color: azure;
+    margin-top: 90px;
+
+}
+img{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 60%;
+    margin: 20px;
+
+}
+.p1{
+    font-size: 15px;
+    display: flex;
+    flex: 4;
+    margin-top: 50px;
+}
+.pp1{
+    color: azure;
+}
+.li1 li{
+    list-style: none;
+    
+
+}
+footer .footrr .oneline{
+    width: 100%;
+    color: azure;
+    float: none;
+}
+@media screen and (min-width:379px) and (max-width:667px){
+    header, .logo, .anker{
+        display:inline-block;
+        flex: none;
+    }
+    div, .anker{
+        font-size: 19px;
+    }
+    header{
+            position:static;
+            margin: 6px;
+            padding: 6px;
+        }
+        section .sec1{
+            float: none;
+            width: 80%;
+            margin: 10px;
+            padding: 20px;   
+        }
+        .p1{
+            flex: none;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        footer, .footrr, .oneline{
+            float:inline-start;
+        }     
+}
+
+@media screen and (min-width:412px) and (max-width:915px){
+    header, .logo, .anker{
+        display:inline-block;
+        flex: none;
+        
+    }
+    header .logo{
+        font-size: 20px;
+    }
+    header{
+            position:static;
+            margin: 6px;
+            padding: 6px;
+        }
+
+        section .sec1{
+            float: none;
+            width: 70%;
+            margin: 10px;
+            padding: 20px;   
+        }
+        .p1{
+            flex: none;
+            margin-bottom: 23px;
+        }
+        footer, .footrr, .oneline{
+            float:inline-start;
+        }
+}
+@media screen and (min-width:430px) and (max-width:932px){
+    header, .logo, .anker{
+        display:inline-block;
+        flex: none;
+
+    }
+    header{
+            position:static;
+            margin: 6px;
+            padding: 6px;
+        }
+        section .sec1{
+            float: none;
+            width: 70%;
+            margin: 10px;
+            padding: 20px;   
+        }
+        .p1{
+            flex: none;
+            margin-bottom: 20px;
+        }
+        footer, .footrr, .oneline{
+            float:inline-start;
+        }
+
+      
+}
